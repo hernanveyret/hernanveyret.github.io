@@ -1,0 +1,57 @@
+@font-face { 
+	font-family: letra;
+	src:url('../fuente/fuente.ttf');
+}
+main { 
+	width: 100%;
+	height: 500px;	
+	display: flex;
+	justify-content: center;
+	background-image: url(../img/fondoform.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+form {
+	width: 40%;
+}
+input {
+	padding: 10px;
+	width: 90%;
+	margin-top: 10px;
+	margin-left: 30px;
+	border: none;
+	box-shadow: 10px 8px 17px  black;
+}
+.btn {
+	background-color: #267BFF;
+	color: white;
+	cursor: pointer;
+}
+.btn:active {
+	box-shadow: none;
+}
+.btn:hover {
+	background-color:#0065FD;	
+}
+textarea  {
+	width: 90%;
+	height: 180px;
+	margin-top: 10px;
+	margin-left: 30px;
+	border: none;
+	box-shadow: 10px 8px 17px  black;
+}
+aside {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 30px;
+	background-color: rgba(255,155,0,0.5);
+	padding: 0 10px;
+}
+aside p {
+	padding-top: 10px;
+	font-family: 'letra';
+}
+
+

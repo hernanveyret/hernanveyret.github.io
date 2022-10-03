@@ -1,0 +1,287 @@
+/* CSS para aside / section / publicidad */
+
+html { scroll-behavior:smooth; }
+
+@font-face { 
+	font-family: letra;
+	src:url('../fuente/fuente.ttf');
+}
+main {
+	margin-top: 10px;
+	display: flex;
+	flex-wrap: wrap;	
+	height:auto;
+}
+main #carouselExampleInterval {
+	width: 50%;
+	;
+}
+.asideIzquierdo {
+	display: flex;
+	align-items: center;
+	width: 25%;
+	
+}
+.asideDerecho {
+	width: 25%;
+}
+.marcas {
+	margin: 20px 0 0 20px;
+}
+.marcas p {
+	font-family:'letra';
+	font-size: 20px;
+	margin-left: 25px;
+	background-image: url(../img/iconos/plantillas.png);
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: 90px;
+}
+select {
+	padding: 10px;
+}
+.estilosCalzados {
+	width: 100%;
+	height:9em;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.estilosCalzados a {
+	text-decoration: none;
+	padding: 10px 40px;
+	background-color: #FF9B00;
+	color: white;
+	margin-right: 30px;
+	font-family:'letra';
+}
+.estilosCalzados a:hover {
+	background-color:#BB7100;
+	color: white;
+}
+section {	
+	width: 100%;
+	height:100vh;
+	border:1px solid yellow;
+}
+section h1 {
+	font-family: letra;
+	padding: 10px;
+	/* margin-left: 20px; */	
+}
+.hombre {
+	background-image: url('../img/fondo.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.dama {
+	background-image: url('../img/fondod.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.niños {
+	background-image: url('../img/fondon.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+section .objeto {
+	display: flex;
+	width: 70%;
+	height:auto;	
+	margin-top: 10px;
+}
+
+section button {
+	width: 40px;
+	height:20px;
+	border: none;
+}
+.precio {	
+	width: 500px;
+	height:210px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.precioscalzados {
+	width: 110px;
+	height: 40px;
+	background-color: orange;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	color: white;
+	font-family: letra;
+}
+.btnComprar {
+	width: 140px;
+	height: 40px;
+	background-color: #FF9B00;
+	margin-left: 20px;
+	font-size: 20px;
+	color: white;
+	font-family: letra;
+}
+.btnComprar:hover {
+	background-color:#BB7100;
+	color: white;
+}
+.selectColor {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;	
+}
+.btnChoco {
+	margin-top: 5px;
+	background-color: #AB7D6F;
+}
+.btnNude {
+	margin-top: 5px;
+	background-color: #D8AE93;
+}
+.btnCyan {
+	margin-top: 5px;
+	background-color: #00C7D2;
+}
+.btnAzul {
+	margin-top: 5px;
+	background-color: blue;
+}
+.btnNegro {
+	margin-top: 5px;
+	background-color: black;
+}
+.btnRosa {
+	margin-top: 5px;
+	background-color: pink;
+}
+.btnBlanco {
+	margin-top: 5px;
+	background-color: white;
+	border: 1px solid black;
+}
+.btnLila {
+	margin-top: 5px;
+	background-color: #BD59FF;
+}
+.selectNumeracion {
+	font-size: 20px;	
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+	font-family: letra;
+	background-color: rgba(255,155,0,0.5);
+}
+
+.tituloniños {
+	background-image: url(../img/iconos/niños.png);
+	background-repeat: no-repeat;
+	background-size: 60px;
+	background-position: 140px;
+/*	background: linear-gradient(90deg, #fbda61ee, #edb92900); */
+}
+.titulodama {	
+	background-image: url(../img/iconos/dama.png);
+	background-repeat: no-repeat;
+	background-size: 60px;
+	background-position: 140px;	
+}
+.titulohombre {
+	background-image: url(../img/iconos/hombre.png);
+	background-repeat: no-repeat;
+	background-size: 60px;
+	background-position: 190px;
+}
+.titulopublicidad {
+	background-image: url(../img/iconos/video.png);
+	background-repeat: no-repeat;
+	background-size: 50px;
+	background-position: 140px;
+	font-family: letra;
+}
+.titulocaja {
+	background-image: url(../img/iconos/caja.png);
+	background-repeat: no-repeat;
+	background-size: 60px;
+	background-position: 140px;
+}
+.video {	
+	width: 50%;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.publicidadUno {
+	width: 100%;	
+	display: flex;
+}
+.jaguarClick {
+	cursor: pointer;
+}
+.publicidadDos {	
+	width: 50%;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.caja {
+	width: 100%;
+	height: 400px;	
+}	
+.contenedorCaja {	
+	width: 100%;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+}
+.registradora {			
+	width: 40%;
+	height: 300px;	
+	background-color: rgba(255,155,0,0.5);
+	overflow: auto;
+}
+.otrosGastos,.subTotal,.total {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	font-size: 20px;	
+	width: 100%;
+	height: 70px;
+	border: 2px solid white;
+	padding-right: 10px;
+	background-color: rgba(255,155,0,0.5);
+}
+.pagosFinales {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	width: 200px;
+	
+}
+.btnFincompra, .btnBorrarcompra {
+	padding: 10px;
+	background-color: green;
+	color: white;
+	border: 1px solid white;
+	
+}
+.btnBorrarcompra:hover {
+	background-color: #00D500;
+}
+.btnFincompra:hover {
+	background-color: #00D500;
+}
+.volver {
+	text-decoration: none;
+	padding: 10px;
+	color: white;
+	border: 1px solid white;
+}
+.volver:hover {
+	color: white;
+	background-color: #00D500;
+}

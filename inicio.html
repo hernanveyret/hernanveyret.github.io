@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="description" content="Pagina sobre venta de calzados" />
+	<meta name="keywords" content="zapatillas, calzados, deportivo, sandalias, zapatos, ojotas, botas, gomones" />
+	<link rel="stylesheet" href="css/inicio.css" />	
+	<link rel="stylesheet" href="css/estilo.css" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">	
+	<!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+	<script src="js/calzados.js" type="text/javascript"></script>
+	<link rel="shortcut icon" href="img/favicon.png"  type="img/x-icon" />	
+
+		<style>
+
+				.punto {
+					
+					width: 100%;
+					height: auto;
+					
+					
+				}
+				.puntodos {
+					
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+		</style>
+
+
+		
+	
+	<title>Calzados Abi</title>	
+</head>
+
+<body>	
+
+		<header>
+			<div class="cabeza">				
+				<img onclick="window.open('https://drive.google.com/file/d/1s3zNCMgGWwm6eOOFVuuLDfSzdEFxS44_/view?usp=sharing','_blank')" class="tapaCatalogo" src="img/carrusel/tapacatalogo.png" alt="Tapa catalogo" />
+			</div>
+			
+			<div id="subir" class="cabeza"><img src="img/logo.png" alt="Imgen del logo" class="logo" /></div>
+			
+			<div class="cabeza3">
+			
+				<span id="contadorProductos">0</span>
+				<a href="#caja"><img class="carrito" src="img/iconos/carrito.png" alt="Imagen de carrito de compras" /></a>
+			</div>
+		
+		</header>
+		<!-- Navegador lateral -->		
+		<nav>
+			<ul>
+				<li class="home"><a href="#subir">home</a></li>
+				<li class="niños"><a href="#niños">niños</a></li>
+				<li class="dama"><a href="#dama">dama</a></li>
+				<li class="hombre"><a href="#hombre">hombre</a></li>
+				<li class="contacto"><a href="formulario.html">contactanos</a></li>
+				<li class="punto"><a href="#puntoo">publicidad</a></li>
+				<li class="subir"><a href="#subir">volver</a></li>
+			</ul>
+		
+		</nav>
+		
+		<main>
+			<div class="asideIzquierdo">
+			<!-- bootstrap Ingrese 3 imagenes y acomode dentro de un div simulando un aside, ingrese los alt -->
+			
+			<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+				  <div class="carousel-inner">
+					<div class="carousel-item active">
+					  <img src="img/carrusel2/off.jpg" class="d-block w-100" alt="banner de oferta">
+					</div>
+					<div class="carousel-item">
+					  <img src="img/carrusel2/savage.jpg" class="d-block w-100" alt="publicidad de calzados savage">
+					</div>
+					<div class="carousel-item">
+					  <img src="img/carrusel2/mesdemama.jpg" class="d-block w-100" alt="banner del mes de mama">
+					</div>
+				  </div>
+				  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				  </button>
+				  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				  </button>
+			</div>	
+			
+				
+			</div>
+		
+		
+			<!-- modificacion - tamaño de la imagen, velocidad del intervalo, agregue descripcion en el alt , agregue mas imagenes-->
+		<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+				  <div class="carousel-inner">
+						<div class="carousel-item active" data-bs-interval="5000">
+						  <img src="img/carrusel/imgca1.jpg" class="d-block w-30" alt="Zapatilla Jaguar de lona para chicos">
+						</div>
+						<div class="carousel-item" data-bs-interval="5000">
+						  <img src="img/carrusel/imgca2.jpg" class="d-block w-30" alt="Zapatilla deportiva Proforce para hombre">
+						</div>
+						<div class="carousel-item" data-bs-interval="5000">
+						  <img src="img/carrusel/imgca3.jpg" class="d-block w-30" alt="Sandalia siris para dama">
+						</div>
+						<div class="carousel-item" data-bs-interval="5000">
+						  <img src="img/carrusel/imgca4.jpg" class="d-block w-30" alt="Sandalia savage para dama">
+						</div>
+						<div class="carousel-item" data-bs-interval="5000">
+						  <img src="img/carrusel/imgca5.jpg" class="d-block w-30" alt="Zapatilla savage para dama">
+						</div>
+						<div class="carousel-item" data-bs-interval="5000">
+						  <img src="img/carrusel/imgca6.jpg" class="d-block w-30" alt="Chinela savage para dama">
+						</div>
+						
+				  </div>
+				  
+				  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				  </button>
+				  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				  </button>
+		</div>
+				<!-- aside derecho -->
+				<div class="asideDerecho">
+					<!-- Seleccion por marcas -->
+					<div class="marcas">
+						<p>MARCAS</p>
+						<select id="selectorMarcas" onChange="irAMarca()">
+							<option value="">Seleccione una marca</option>														
+							<option value="Faraon">Faraon</option>		
+							<option value="Heyday">Heyday</option>
+							<option value="Ipanema">Ipanema</option>
+							<option value="Jaguar">Jaguar</option>							
+							<option value="Ringo">Ringo</option>
+							<option value="Savage">Savage</option>
+							<option value="Shadow">Shadow</option>							
+							<option value="Siris">Siris</option>							
+							<option value="Tridy">Tridy</option>
+						</select>
+					</div>
+				
+				</div>
+				
+				<!-- navegadro de estilo de calzados -->
+				<div class="estilosCalzados">
+					<a href="deportivo.html">DEPORTIVO</a>
+					<a href="sandalia.html">SANDALIAS</a>
+					<a href="zapatos.html">ZAPATOS</a>
+					<a href="ojotas.html">OJOTAS</a>				
+				</div>
+				
+				<!-- -----------   Seccion por genero ------------------- -->
+					<!-- Niños -->
+				<section class="niños" id="niños">
+					<h1 class="tituloniños">NIÑOS</h1>
+					<span id="Jaguar"></span>
+						<div class="objeto">
+							<div><img src="img/niños/art128/128azul.jpg" alt="Zapatilla de lona jaguar azul" id="art128" width="400"/></div>
+								<div class="selectColor">
+									<button class="btnAzul" onclick="cambiar128azul()"></button>
+									<button class="btnNegro" onclick="cambiar128negro()"></button>
+									<button class="btnRosa" onclick="cambiar128rosa()"></button>
+								</div>
+								
+								<div class="selectNumeracion">
+									<script>
+										for ( i = 28; i <= 34; i++ ) {
+										document.write(`<label><input type="checkbox" value="${i}" name="numeracion" class="numeracion" />Nº ${i}</label>`);
+										}
+									</script>
+								</div>
+								<div class="precio">
+									<div class="precioscalzados">$ 3500</div>
+									<button class="btnComprar" onclick="comprar128()">COMPRAR</button>
+									<div><img src="img/marcas/jaguar.png" alt="Jaguar" width="100px" /></div>
+								</div>
+								
+								
+						</div>
+						
+						<div class="objeto">
+						<span id="Tridy"></span>
+							<div><img src="img/niños/art603/603negra.jpg" alt="Sandalia de chicos tridy" id="art603" width="400"/></div>
+								<div class="selectColor">
+									<button class="btnNegro" onclick="cambiar603negro()"></button>
+									<button class="btnRosa" onclick="cambiar603rosa()"></button>
+								</div>
+								
+								<div class="selectNumeracion">
+									<script>
+										for ( i = 21; i <= 27; i++ ) {
+										document.write(`<label><input type="checkbox" value="${i}" name="numeracion" class="numeracion" />Nº ${i}</label>`);
+										}
+									</script>
+								</div>
+								<div class="precio">
+									<div class="precioscalzados">$ 2500</div>
+									<button class="btnComprar" onclick="comprar603()">COMPRAR</button>
+									<div><img src="img/marcas/tridy.png" alt="Jaguar" width="100px" /></div>
+								</div>
+						</div>
+						
+						<div class="objeto">
+						<span id="Heyday"></span>
+							<div><img src="img/niños/art183/183lila.jpeg" alt="Zapatilla de lona tridy lila" id="art183" width="400"/></div>
+								<div class="selectColor">
+									<button class="btnLila" onclick="cambiar183lila()"></button>
+									<button class="btnRosa" onclick="cambiar183rosa()"></button>
+								</div>
+								
+								<div class="selectNumeracion">
+									<script>
+										for ( i = 18; i <= 24; i++ ) {
+										document.write(`<label><input type="checkbox" value="${i}" name="numeracion" class="numeracion" />Nº ${i}</label>`);
+										}
+									</script>									
+								</div>
+								<div class="precio">
+									<div class="precioscalzados">$ 3200</div>
+									<button class="btnComprar" onclick="comprar183()">COMPRAR</button>
+									<div><img src="img/marcas/heyday.png" alt="Heyday" width="100px" /></div>
+								</div>
+						</div>						
+				</section>
+				
+					<!-- Dama -->
+				<section class="dama" id="dama">
+					<h1 class="titulodama">DAMA</h1>
+								<div class="objeto">
+							<div><img src="img/dama/art26/26blanco.jpg" alt="Zapatilla de dama" id="art26" width="400"/></div>
+							<span id="Savage"></span>
+								<div class="selectColor">									
+									<button class="btnNegro" onclick="cambiar26negro()"></button>
+									<button class="btnBlanco" onclick="cambiar26blanco()"></button>
+								</div>
+								
+								<div class="selectNumeracion">
+									<script>
+										for ( i = 35; i <= 41; i++ ) {
+										document.write(`<label><input type="checkbox" value="${i}" name="numeracion" class="numeracion" />Nº ${i}</label>`);
+										}
+									</script>
+								</div>
+								<div class="precio">
+									<div class="precioscalzados">$ 9890</div>
+									<button class="btnComprar" onclick="comprar26()">COMPRAR</button>
+									<div><img src="img/marcas/savage.png" alt="Savage" width="100px" /></div>
+								</div>
+								
+								
+						</div>
+						
+						<div class="objeto">
+						<span id="Siris"></span>
+							<div><img src="img/dama/art320/320negro.jpg" alt="Sandalia para dama Siris" id="art320" width="400"/></div>
+								<div class="selectColor">
+									<button class="btnNegro" onclick="cambiar320negro()"></button>
+									<button class="btnNude" onclick="cambiar320rosa()"></button>
+								</div>
+								
+								<div class="selectNumeracion">
+									<script>
+										for ( i = 35; i <= 41; i++ ) {
+										document.write(`<label><input type="checkbox" value="${i}" name="numeracion" class="numeracion" />Nº ${i}</label>`);
+										}
+									</script>
+								</div>
+								<div class="precio">
+									<div class="precioscalzados">$ 12200</div>
+									<button class="btnComprar" onclick="comprar320()">COMPRAR</button>
+								<div><img src="img/marcas/siris.png" alt="Sandalia siris" width="100px" /></div>									
+								</div>
+						</div>
+						
+						<div class="objeto">
+						<span id="Ipanema"></span>
+							<div><img src="img/dama/ipanema/26524negro.jpg" alt="Ojota de dama Ipanema" id="ipanema" width="400"/></div>
+								<div class="selectColor">
+									<button class="btnNegro" onclick="cambiarIpanemanegro()"></button>
+									<button class="btnCyan" onclick="cambiarIpanemavioleta()"></button>
+								</div>
+								
+								<div class="selectNumeracion">
+									<script>
+										for ( i = 35; i <= 41; i++ ) {
+										document.write(`<label><input type="checkbox" value="${i}" name="numeracion" class="numeracion" />Nº ${i}</label>`);
+										}
+									</script>									
+								</div>
+								<div class="precio">
+									<div class="precioscalzados">$ 3200</div>
+									<button class="btnComprar" onclick="comprarIpanema()">COMPRAR</button>	
+									<div><img src="img/marcas/ipanema.png" alt="ojotas Ipanema" width="100px" /></div>									
+								</div>
+						</div>
+				</section>
+				
+					<!-- Hombre -->
+				<section class="hombre" id="hombre">
+					<h1 class="titulohombre">HOMBRE</h1>
+						<div class="objeto">
+						<span id="Shadow"></span>
+							<div><img src="img/hombre/art4077/4077choco.png" alt="Zapatilla de lona shadow" id="art4077" width="400"/></div>
+								<div class="selectColor">									
+									<button class="btnNegro" onclick="cambiar4077negro()"></button>
+									<button class="btnChoco" onclick="cambiar4077choco()"></button>
+								</div>
+								
+								<div class="selectNumeracion">
+									<script>
+										for ( i = 39; i <= 45; i++ ) {
+										document.write(`<label><input type="checkbox" value="${i}" name="numeracion" class="numeracion" />Nº ${i}</label>`);
+										}
+									</script>
+								</div>
+								<div class="precio">
+									<div class="precioscalzados">$ 4500</div>
+									<button class="btnComprar" onclick="comprar4077()">COMPRAR</button>	
+									<div><img src="img/marcas/shadow.png" alt="Zapatillas shadow" width="100px" /></div>									
+								</div>						
+						</div>
+						
+						<div class="objeto">
+						<span id="Ringo"></span>
+							<div><img src="img/hombre/ringo/ringonegro.jpg" alt="Zapato urbano Hombre mara Ringo" id="artringo" width="400"/></div>
+								<div class="selectColor">
+									<button class="btnNegro" onclick="cambiarringonegro()"></button>
+									<button class="btnAzul" onclick="cambiarringoazul()"></button>
+									<button class="btnChoco" onclick="cambiarringochoco()"></button>
+								</div>
+								
+								<div class="selectNumeracion">
+									<script>
+										for ( i = 39; i <= 45; i++ ) {
+										document.write(`<label><input type="checkbox" value="${i}" name="numeracion" class="numeracion" />Nº ${i}</label>`);
+										}
+									</script>
+								</div>
+								<div class="precio">
+									<div class="precioscalzados">$ 15800</div>
+									<button class="btnComprar" onclick="comprarRingo()">COMPRAR</button>
+									<div><img src="img/marcas/ringo.png" alt="Calzados Ringo" width="100px" /></div>									
+								</div>
+						</div>
+						
+						<div class="objeto">
+						<span id="Faraon"></span>
+							<div><img src="img/hombre/faraon/110negro.jpg" alt="Chinela de hombre." id="art110" width="400"/></div>
+								<div class="selectColor">
+									<button class="btnNegro" onclick="cambiarFaraonnegro()"></button>
+									<button class="btnAzul" onclick="cambiarFaraonazul()"></button>
+								</div>
+								
+								<div class="selectNumeracion">
+									<script>
+										for ( i = 39; i <= 45; i++ ) {
+										document.write(`<label><input type="checkbox" value="${i}" name="numeracion" />Nº ${i}</label>`);
+										}
+									</script>									
+								</div>
+								<div class="precio">
+									<div class="precioscalzados">$ 7200</div>
+									<button class="btnComprar" onclick="comprarFaraon()">COMPRAR</button>	
+									<div><img src="img/marcas/faraon.png" alt="Chinelas faraon" width="100px" /></div>									
+								</div>
+						</div>
+				</section>
+				
+				<div class="punto">
+           
+					<h1 id="puntoo" class="titulopublicidad">VIDEO</h1>
+					  <div class="puntodos">  
+					<iframe width="700" height="400" src="https://www.youtube.com/embed/_NMoUlUW-Do" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							
+								<img class="jaguarClick" src="img/jaguar.png" alt="Jaguar sponsor" onclick="salirPagina()" />
+					  </div>
+				 </div>
+				
+				
+				<!-- Caja -->
+				<section class="caja" id="caja">
+				<h1 class="titulocaja">CAJA</h1>
+					<div class="contenedorCaja">
+						<div class="registradora" id="pagar"></div>
+					<div class="pagosFinales">
+						<input type="button" class="btnFincompra" onclick="finDecompra()" value="FINALIZAR COMPRA" />
+						<input type="button" class="btnBorrarcompra" onclick="borrarCompra()" value="BORRAR COMPRA" />
+						<div class="subTotal" id="subTotal">SubTotal $00</div>
+						<div class="otrosGastos" id="otrosGastos">Otr. Gastos $00</div>
+						<div class="total" id="pagoTotal">Total $00</div>
+						
+					</div>
+					</div>
+				</section>
+		
+		</main>
+		
+		
+	
+		<!-- enlase para el whatsapp -->
+		<a href="https://wa.me/1134025499" target="_blank" id="wts">whatsaap</a>		
+		
+		<footer>
+			<P>Copyright© - 2022 - Hernán Luis Veyret</p><br />
+			<p>America 617, San Nicolas de los Arroyos, Bs.As. cp 2900. (11)-34025499 - Lunes a Viernes de 9 a 20hs.</p>
+			
+			<ul>
+				<li><a href="https://www.facebook.com/index.php?stype=lo&lh=Ac9Eb9oSAncwC9zQ" target="_blank" class="fb">Facebook</a></li>
+				<li><a href="https://twitter.com/home?lang=es" target="_blank" class="tw">Twitter</a></li>
+				<li><a href="https://www.instagram.com/hernanveyret/" target="_blank" class="in">Instagram</a></li>
+			</ul>
+			
+			<a class="staff" href="staff.html">STAFF</a>
+		</footer>
+
+</body>
+
+</html>
